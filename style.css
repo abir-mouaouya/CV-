@@ -1,0 +1,193 @@
+html, * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+position: relative;
+margin-top: 0px;
+margin-left: 0px;
+width: 100%;
+height: 15%;
+}
+
+footer{
+    margin-left: 40%;
+}
+
+
+/*********************************************   les élements communs  **************************************************/
+ body{
+     position: relative;
+ }
+
+i{
+    margin-left: 4px;
+    margin-right: 14px;
+    color: #DFE166;
+}
+
+
+.cv{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.contact span {
+    color: whitesmoke;
+}
+/************************************************************************************************************************/
+
+
+
+/*********************************************   Competence  ************************************************************/
+/* photo de profil*/
+.photo{
+    position: relative;
+    margin-left: 30%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+}
+ .photo img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/*titre et contenu de section  */
+.Ctitre{
+    margin-left: 3%;
+    color: #f7f1f5;
+}
+
+.Cbody{
+    color: white;
+    font-size : 14px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 13%;
+    padding-right: 3%;
+}
+
+.cv .competence{
+    position: relative;
+    margin-top: 2px;
+   /* background-color: #921414;*/
+    background-color:#9A9EAB;
+    display:grid;
+}
+
+.competence .perso .titreP h1{
+    position: relative;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 2%;
+    margin-left: 25%;
+    color: #fffdfe;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#IDE, #competence, #reseau{
+    position: relative;
+}
+/***********************************************************************************************************************/
+
+
+/*********************************************  Acamédemique  ************************************************************/
+  /* logo umanis*/
+.umanis{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+ }
+
+.photoU{ 
+    position: relative;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    align-items: center;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.cv .academique{
+    position: relative;
+    margin-top: 1%;
+    margin-left: 2%;
+    background-color: #fff;
+    display:grid;
+}
+
+.TITRE h1{
+    align-items: center;
+    font-size: 23px;
+    color: rgb(68, 83,106);
+}
+
+.sicom{
+    margin-left: 40%;
+}
+
+.stage{
+    margin-top:  15%;
+    margin-left: 16%;
+    text-decoration: underline;
+}
+
+.academique .texte{
+    font-style: oblique 40deg;
+}
+
+/* les titres des sections*/
+.titre h2{
+    position: relative;
+    color: #5D535E;
+    margin-left: 25%;
+    padding-bottom: 1%;
+    align-items: center;
+    font-family:monospace;
+    font-size: 25px;
+}
+
+
+.body{
+    margin-left: 4%;
+    padding-bottom: 1%;
+}
+
+.academique ul li{
+    padding-bottom: 1%;
+}
+
+dd{
+    margin-left: 6%;
+    padding-top: 1%;
+}
+
+dt{
+    margin-top: 1%;
+    margin-left: 0%;
+}
+
+.sous , .sousTitre{
+    color: #EC96A4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+/***********************************************************************************************************************/
